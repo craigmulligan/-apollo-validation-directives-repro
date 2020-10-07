@@ -1,0 +1,28 @@
+{
+  "name": "x",
+  "version": "1.0.0",
+  "description": "reproduction of trying to test apollo-validation-directives with a mock schema",
+  "main": "schema.js",
+  "dependencies": {
+    "@graphql-tools/mock": "^6.2.4",
+    "@profusion/apollo-validation-directives": "^2.0.3",
+    "apollo-server-express": "^2.18.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.5.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "jest": "^26.5.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "author": "",
+  "license": "ISC"
+}
